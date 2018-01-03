@@ -1,11 +1,8 @@
 public class PersegiPanjang{
     public static void main (String[] args){
-        java.lang.Integer Panjang = 10;
-        java.lang.Integer Tinggi = 5;
-        java.lang.Integer Luas = Panjang * Tinggi;
 
-        System.out.println("Panjang sebuah persegi panjang : " +Panjang+ " cm");
-        System.out.println("Panjang sebuah persegi panjang : " +Tinggi+ " cm");
-        System.out.println("Maka luas sebuah persegi adalah : " +Luas+ " cm");
+        System.out.println("Panjang sebuah persegi panjang : " +Variable.panjang+ " cm");
+        System.out.println("lebar sebuah persegi panjang : " +Variable.lebar+ " cm");
+        System.out.println("Maka luas sebuah persegi adalah : " +Variable.luasPersegiPjg+ " cm");
     }
 }
